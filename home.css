@@ -1,0 +1,138 @@
+body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.no-padding {
+    padding: 0;
+}
+.col-data-w {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    width: calc(100% - 20px);
+    margin: 10px;
+    border: 1px solid #757575;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-display-w {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    left: 0;
+    height: 150px;
+    background: #454545;
+    width: 100%;
+    overflow: hidden;
+}
+.car-image {
+    position: relative;
+    display: block;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;   
+}
+.car-name {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    max-width: 80%;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.car-name > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32, 78, 131);
+    font-size: large;
+    text-decoration: underline;
+}
+.data-row-w {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #858585;
+    border-bottom: 1px solid #858585;
+}
+.data-row {
+    width: 100%;
+}
+.data-w {
+    position: relative;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    left: 0;
+}
+.data-w > svg {
+    position: relative;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.data-txt {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #454545;
+}
+.info-w {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    width: calc(100% - 20px);
+    left: 10px;
+    height: 50px;
+}
+.info-itm {
+    position: absolute;
+    display: block;
+    top: 0;
+    height: 100%;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+.km {
+    position: relative;
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #858585;
+}
+.p-label {
+    position: relative;
+    display: block;
+    margin-top: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: #454545;
+}
+.price {
+    position: relative;
+    display: block;
+    margin-top: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #454545;
+}
